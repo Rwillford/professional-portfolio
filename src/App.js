@@ -1,29 +1,20 @@
 import './App.css';
-import React, { useState } from 'react';
+import './index.css';
+import React from 'react';
 import About from './components/About';
+import Nav from './components/Nav';
 import Header from './components/Header';
-import Project from './components/Project';
-import ContactForm from './components/Contact';
-// import Footer from './components/Footer';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  
   return (
     <div>
       <Header></Header>
       <main>
-        {!contactSelected ? (
-          <>
-            <Project currentProjects={currentProject}></Project>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
+        <Portfolio></Portfolio>
+        <About></About>
       </main>
     </div>
-  );
+  )
 }
 
 export default App;
