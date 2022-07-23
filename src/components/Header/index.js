@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from '../Navigation';
 
 function Header() {
@@ -11,8 +11,13 @@ function Header() {
                     </span>
                 </a>
             </h1>
-            <Nav>
-            </Nav>
+            <Nav
+                projects={projects}
+                currentProject={currentProject}
+                setCurrentProject={setCurrentProject}
+                contactSelected={contactSelected}
+                setContactSelected={setContactSelected}
+            ></Nav>
         </header>
     )
 }
