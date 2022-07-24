@@ -7,7 +7,9 @@ function Resume() {
             <section id="resume">
                 <h2>Resume</h2>
                 <embed 
-                    src={resume} 
+                    src={resume}
+                    width = "750px"
+                    height = "1000px" 
                     type="application/pdf">
                 </embed>
                 <a href={resume}>Download My Resume</a>

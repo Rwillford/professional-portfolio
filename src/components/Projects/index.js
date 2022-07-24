@@ -49,7 +49,7 @@ function Project() {
 
     return (
         <div>
-            <h2 id="projects">Projects</h2>
+            <h2 id="project">Projects</h2>
         <section className="flex-row">
             {projects.map(project =>{
                 return (
