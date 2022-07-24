@@ -5,7 +5,7 @@ import profilePic from "../../assets/images/BobFacePic.jpg";
 function About() {
     return (
         <section className="my-5">
-            <h1 className="section-title" id="about">About Bob!</h1>
+            <h1 className="section-title justify-content-center" id="about">About Bob!</h1>
             <img src={profilePic} className="my-2" style={{ width: "5%" }} alt="cover"/>
             <p>Hello, my name is Robert Willford but you can just call me Bob. I'm the son of an IT technician.<br></br>
                I have been working with computers for so long that I remember having to use command lines to run everything.<br></br>

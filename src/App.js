@@ -1,18 +1,36 @@
 import './App.css';
 import './index.css';
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
 import Header from './components/Header';
+import ContactForm from './components/Contact';
+import Project from './components/Projects'
+import Footer from './components/Footer'
+import Resume from './components/Resume'
 
 function App() {
+  const [contactSelected, setContactSelected] =  useState(false);
+
+
+
   return (
     <div>
-      <Header></Header>
+      <Header
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Header>
       <main>
-        <Portfolio></Portfolio>
-        <About></About>
+        {!contactSelected ? (
+          <>
+            <Project />
+            <About />
+            <Resume />
+          </>
+        ) : (
+          <ContactForm />
+        )}
       </main>
+      <Footer />
     </div>
   )
 }
