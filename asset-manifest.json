@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/professional-portfolio/static/css/main.ba6af354.css",
+    "main.js": "/professional-portfolio/static/js/main.5f50006e.js",
+    "static/js/787.10c1ab8b.chunk.js": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js",
+    "static/media/BobFacePic.jpg": "/professional-portfolio/static/media/BobFacePic.2738033ed64c94e5b8a3.jpg",
+    "static/media/RunBuddy.jpg": "/professional-portfolio/static/media/RunBuddy.6941f2e0cedab24193b9.jpg",
+    "static/media/legoTwitter.jpg": "/professional-portfolio/static/media/legoTwitter.927c105a76ab634b59bb.jpg",
+    "static/media/WeatherOutlook.jpg": "/professional-portfolio/static/media/WeatherOutlook.c0615dda171ac1464e2f.jpg",
+    "static/media/WorkDayPlanner.jpg": "/professional-portfolio/static/media/WorkDayPlanner.1f33a4efb7eb9274d86c.jpg",
+    "static/media/RecipeRoulette.jpg": "/professional-portfolio/static/media/RecipeRoulette.7227247e391f82c33d2a.jpg",
+    "static/media/rwillfordResume.pdf": "/professional-portfolio/static/media/rwillfordResume.c5ae51bcdc04ef6afcae.pdf",
+    "static/media/lowtechSS.jpg": "/professional-portfolio/static/media/lowtechSS.44f6e42555db7e638b81.jpg",
+    "static/media/hexagon.jpg": "/professional-portfolio/static/media/hexagon.add4be50ad4a96ac8720.jpg",
+    "static/media/hexagonal-background.jpg": "/professional-portfolio/static/media/hexagonal-background.e4b59f58ccf9d0f63286.jpg",
+    "index.html": "/professional-portfolio/index.html",
+    "main.ba6af354.css.map": "/professional-portfolio/static/css/main.ba6af354.css.map",
+    "main.5f50006e.js.map": "/professional-portfolio/static/js/main.5f50006e.js.map",
+    "787.10c1ab8b.chunk.js.map": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba6af354.css",
+    "static/js/main.5f50006e.js"
+  ]
+}
