@@ -32,27 +32,29 @@ function ContactForm() {
 
     return (
         <section id="contact">
-            <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-                </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
+            <h1 className="section-title">Contact Me</h1>
+            <div className="d-flex justify-content-center">
+                <form id="contact-form " className="form-group" onSubmit={handleSubmit}>
                     <div>
-                        <p className="error-text">{errorMessage}</p>
+                        <label htmlFor="name">Name:</label>
+                        <input className="form-control" type="text" defaultValue={name} onBlur={handleChange} name="name" />
                     </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="email">Email:</label>
+                        <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message:</label>
+                        <textarea className="form-control" name="message" defaultValue={message} rows="5" onBlur={handleChange} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
     )
 }
