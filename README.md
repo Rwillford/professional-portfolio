@@ -73,8 +73,7 @@
   I ran into issue with useState on the categories but figured it out. 
   Here is a screenshot:
   
-  
-![Screenshot 2022-07-24 162941](https://user-images.githubusercontent.com/99914942/180671612-12fb6f95-56bf-47fa-8849-6eb58e147b6a.jpg)
+![Bob](https://user-images.githubusercontent.com/99914942/180671666-4a31b079-f5f1-4084-b126-15d2ff3063fc.jpg)
 
 
   ## Links
