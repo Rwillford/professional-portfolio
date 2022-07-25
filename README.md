@@ -19,23 +19,42 @@
   * [Email](#Email)
 
   ## User Story
-  AS AN avid traveler<br>
-  I WANT to be able to track my withdrawals and deposits with or without a data/internet connection<br>
-  SO THAT my account balance is accurate when I am traveling<br>
-
-  ## Acceptance Criteria
-  GIVEN a budget tracker without an internet connection<br>
-  WHEN the user inputs an expense or deposit<br>
-  THEN they will receive a notification that they have added an expense or deposit<br>
-  WHEN the user reestablishes an internet connection<br>
-  THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated<br>
+  AS AN employer looking for candidates with experience building single-page applications<br>
+  I WANT to view a potential employee's deployed React portfolio of work samples<br>
+  SO THAT I can assess whether they're a good candidate for an open position<br>
   
+  ## Acceptance Criteria
+  GIVEN a single-page application portfolio for a web developer<br>
+  WHEN I load the portfolio<br>
+  THEN I am presented with a page containing a header, a section for content, and a footer<br>
+  WHEN I view the header<br>
+  THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio<br>
+  WHEN I view the navigation titles<br>
+  THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted<br>
+  WHEN I click on a navigation title<br>
+  THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted<br>
+  WHEN I load the portfolio the first time<br>
+  THEN the About Me title and section are selected by default<br>
+  WHEN I am presented with the About Me section<br>
+  THEN I see a recent photo or avatar of the developer and a short bio about them<br>
+  WHEN I am presented with the Portfolio section<br>
+  THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository<br>
+  WHEN I am presented with the Contact section<br>
+  THEN I see a contact form with fields for a name, an email address, and a message<br>
+  WHEN I move my cursor out of one of the form fields without entering text<br>
+  THEN I receive a notification that this field is required<br>
+  WHEN I enter text into the email address field<br>
+  THEN I receive a notification if I have entered an invalid email address<br>
+  WHEN I am presented with the Resume section<br>
+  THEN I see a link to a downloadable resume and a list of the developer’s proficiencies<br>
+  WHEN I view the footer<br>
+  THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) <br>
    
   ## Installation
   npm install
 
   ## Usage Information
-  npm start
+  npm run start
 
   ## Licenses
   
@@ -49,11 +68,17 @@
   No testing done
 
   ## Comments
-  ![budgetSS](https://user-images.githubusercontent.com/99914942/179422317-3b009b8e-d163-4c24-b795-bb854bf4c32b.jpg)
+  
+  I know I can do better styling wise but I haven't updated my resume in years so Im sorry for an out of date one. Its on the to-do list.
+  I ran into issue with useState on the categories but figured it out. 
+  Here is a screenshot:
+  
+  
+![Screenshot 2022-07-24 162941](https://user-images.githubusercontent.com/99914942/180671612-12fb6f95-56bf-47fa-8849-6eb58e147b6a.jpg)
 
 
   ## Links
-  Heroku: https://blooming-fortress-25029.herokuapp.com/
+  Deployed: https://rwillford.github.io/professional-portfolio/
   
 
   ##### GitHub Username
