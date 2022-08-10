@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/professional-portfolio/static/css/main.ba6af354.css",
-    "main.js": "/professional-portfolio/static/js/main.ad7faabc.js",
+    "main.js": "/professional-portfolio/static/js/main.953e32a2.js",
     "static/js/787.10c1ab8b.chunk.js": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js",
     "static/media/BobFacePic.jpg": "/professional-portfolio/static/media/BobFacePic.2738033ed64c94e5b8a3.jpg",
     "static/media/RunBuddy.jpg": "/professional-portfolio/static/media/RunBuddy.6941f2e0cedab24193b9.jpg",
+    "static/media/BuyBlakeBricks.jpg": "/professional-portfolio/static/media/BuyBlakeBricks.632540672bc41f094e12.jpg",
     "static/media/legoTwitter.jpg": "/professional-portfolio/static/media/legoTwitter.927c105a76ab634b59bb.jpg",
     "static/media/WeatherOutlook.jpg": "/professional-portfolio/static/media/WeatherOutlook.c0615dda171ac1464e2f.jpg",
     "static/media/WorkDayPlanner.jpg": "/professional-portfolio/static/media/WorkDayPlanner.1f33a4efb7eb9274d86c.jpg",
@@ -15,11 +16,11 @@
     "static/media/hexagonal-background.jpg": "/professional-portfolio/static/media/hexagonal-background.e4b59f58ccf9d0f63286.jpg",
     "index.html": "/professional-portfolio/index.html",
     "main.ba6af354.css.map": "/professional-portfolio/static/css/main.ba6af354.css.map",
-    "main.ad7faabc.js.map": "/professional-portfolio/static/js/main.ad7faabc.js.map",
+    "main.953e32a2.js.map": "/professional-portfolio/static/js/main.953e32a2.js.map",
     "787.10c1ab8b.chunk.js.map": "/professional-portfolio/static/js/787.10c1ab8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba6af354.css",
-    "static/js/main.ad7faabc.js"
+    "static/js/main.953e32a2.js"
   ]
 }
