@@ -11,6 +11,13 @@ function Project() {
             deploy: 'https://rehpotsirhc21.github.io/recipe-finder/'
         },
         {
+            title: 'Buy Blakes Brick',
+            description: 'An ecommerce site for Lego',
+            image: 'BuyBlakeBricks.jpg',
+            github: 'https://github.com/smethersblake/buy-blakes-bricks',
+            deploy: 'www.buyblakesbrick.com'
+        },
+        {
             title: 'LEGO Twitter',
             description: 'Social Media site for just LEGO!',
             image: 'legoTwitter.jpg',
@@ -37,13 +44,6 @@ function Project() {
             image: 'WorkDayPlanner.jpg',
             github: 'https://github.com/Rwillford/work-day-planner',
             deploy: 'https://rwillford.github.io/work-day-planner/'
-        },
-        {
-            title: 'Run Buddy',
-            description: 'First App made in Bootcamp!',
-            image: 'RunBuddy.jpg',
-            github: 'https://github.com/Rwillford/run-buddy',
-            deploy: 'https://rwillford.github.io/run-buddy/'
         },
     ];
 
